@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:layout_marginHorizontal="16dp"
+    android:elevation="7dp"
+    app:cardBackgroundColor="#EDFFFFFF"
+    app:cardCornerRadius="32dp">
+
+    <ImageView
+        android:id="@+id/weatherStatus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="75dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="128dp"
+        app:srcCompat="@drawable/baseline_brightness_3_24" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="128dp"
+        app:srcCompat="@drawable/baseline_brightness_5_24" />
+
+    <TextView
+        android:id="@+id/conditionForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="100dp"
+        android:text="condition"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/sunsetForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="32dp"
+        android:text="sunSet"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/tempMaxForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="30dp"
+        android:text="TempMax"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/avgTempForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:text="AvgTemp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/sunRiseForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="150dp"
+        android:text="sunRise"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/tempMinForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="32dp"
+        android:text="TempMin"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/dateForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="10dp"
+        android:text="Date"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"></TextView>
+
+
+</androidx.cardview.widget.CardView>
