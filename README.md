@@ -13,6 +13,7 @@ Step 4:) Open Google Chrome and go to http://localhost:8000 and you will see the
 
 
 All my APPD Projects
+
 Basic Notes App => You can use this app directly because it has apk file. You can download and use it. Just in the settings turn on 
                   "Trust application from unknown sources ON"
 
