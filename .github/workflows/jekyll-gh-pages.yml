@@ -34,7 +34,7 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./Postify/Frontend/project_hercules/web/
-          destination: ./_site
+          destination: ./_site/postify/login
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 
